@@ -28,7 +28,7 @@
    </target>
 	
    <target name = "test" depends = "compile">
-      <junit>
+      <junit printsummary="on">
       	 <classpath path = "TestDir" />
          <classpath refid = "classpath.test" />
          <formatter type = "brief" usefile = "false" />      	
